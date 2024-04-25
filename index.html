@@ -3,75 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Cards website</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .container{
-            height: 100vh;
-            width: 100vw;
-            background-color: #8BC6EC;
-            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-        .card{
-            width: 360px;
-            height: 550px;
-            background-color: white;
-            border-radius: 20px;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 30px;
-            padding: 20px;
-
-        }
-
-        .card img{
-            height: 50%;
-            border-radius: 10px;
-
-        }
-
-        .card h2{
-            font-weight: bold;
-            font-size: 1.5rem;
-
-        }
-
-        .card p{
-            font-size: 1.3em;
-        }
-
-    </style>
+    <title>Project With CSS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
 
-        <div class="card">
+    <header>
+            
+            <div class="navContainer">
+            <nav>
+                <ul id="navList">
+                    <li>
+                       <P id="navLogo">The Dhaba Junction</P>
+                    </li>
+                    <li>
+                        <div id="navItems">
+                            <a href="#">Home</a>
+                            <a href="#">Contact</a>
+                            <a href="#">About</a>
+                        </div>
+                    </li>
+                </ul>
+               
+            </nav>
+        </div>
 
-            <img src="barcode.jpeg" />
+    </header>
 
-            <h2>Scan this QR to make payment to Mr. Dixit</h2>
+    <main>
 
-            <p>
-                This is the official  and original QR code  of Mr. Dixit, 
-                linked with his G-pay account.
-                This code is only for the YT primium membership payment.
-        
-           </p>
+        <div class="contentBox">
+            <!-- item 1 -->
+            <section>
+              
+                <div class="item">
+                    <div class="leftBox">
+                        <!-- heading -->
+                        <h2>Gulab Jamun</h2>
+                        <div>
+                            <h2>Ingredients</h2>
+                        <ul class="ingBox">
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h2>Recipe</h2>
+                        <ol class="recipeBox">
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rightBox">
+                        <img
+                         src="istockphoto-521803129-612x612.jpg" 
+                        />
+                        <div class="overlay">
+                            <span>Click here to buy</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+              
+                <div class="item">
+                    <div class="leftBox">
+                        <!-- heading -->
+                        <h2>Malai Barfi </h2>
+                        <div>
+                            <h2>Ingredients</h2>
+                        <ul>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h2>Recipe</h2>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rightBox">
+                        <img
+                        src="malai-barfi.png" 
+                        />
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section>
+              
+                <div class="item">
+                    <div class="leftBox">
+                        <!-- heading -->
+                        <h2>Gulab Jamun</h2>
+                        <div>
+                            <h2>Ingredients</h2>
+                        <ul class="ingBox">
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h2>Recipe</h2>
+                        <ol class="recipeBox">
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rightBox">
+                        <img
+                         src="istockphoto-521803129-612x612.jpg" 
+                        />
+                        <div class="overlay">
+                            <span>Click here to buy</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+              
+                <div class="item">
+                    <div class="leftBox">
+                        <!-- heading -->
+                        <h2>Malai Barfi </h2>
+                        <div>
+                            <h2>Ingredients</h2>
+                        <ul>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h2>Recipe</h2>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rightBox">
+                        <img
+                        src="malai-barfi.png" 
+                        />
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section>
+              
+                <div class="item">
+                    <div class="leftBox">
+                        <!-- heading -->
+                        <h2>Gulab Jamun</h2>
+                        <div>
+                            <h2>Ingredients</h2>
+                        <ul class="ingBox">
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h2>Recipe</h2>
+                        <ol class="recipeBox">
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rightBox">
+                        <img
+                         src="istockphoto-521803129-612x612.jpg" 
+                        />
+                        <div class="overlay">
+                            <span>Click here to buy</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+              
+                <div class="item">
+                    <div class="leftBox">
+                        <!-- heading -->
+                        <h2>Malai Barfi </h2>
+                        <div>
+                            <h2>Ingredients</h2>
+                        <ul>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h2>Recipe</h2>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rightBox">
+                        <img
+                        src="malai-barfi.png" 
+                        />
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footerBox">
+            <P>
+                Copyright &copy; The Dhaba Junction 2024 All Rights Reserved 
+            </P>
 
         </div>
 
-    </div>
+    </footer>
+       
+     </div>
     
 </body>
 </html>
